@@ -1,0 +1,24 @@
+.card-style{
+  @apply card bg-base-100 border-[0.5px] transition-all hover:bg-black hover:bg-opacity-[2%];
+}
+.btn-style{
+  @apply btn bg-primary text-base-100 px-5 normal-case text-[16px] font-medium border-none hover:bg-neutral transition-all;
+}
+.btnOnlyText{
+  @apply btn bg-transparent hover:text-primary px-5 normal-case text-[16px] font-medium border-none hover:bg-transparent transition-all;
+}
+.btn-stroked{
+  @apply btn btn-outline btn-primary text-primary px-5 hover:bg-primary text-[16px] font-medium hover:border-primary normal-case;
+}
+.card-clicked{
+  @apply focus-visible:outline focus-visible:outline-primary;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

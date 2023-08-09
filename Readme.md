@@ -1,0 +1,2 @@
+# Value of `isRejected` ->
+    In the setCompany there is an object `isRejected` which have 3 values.First value is '0' which means it is not rejected by any super admin. Second value is 1 means it is rejected by super admin. Third value is 2 which means it is allowed to use the app. 
